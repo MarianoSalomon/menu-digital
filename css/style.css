@@ -12,3 +12,88 @@ h1{
     color: white;
 }
 
+ul{
+    background: #c2dfff;
+    background: radial-gradient(circle, rgba(194, 223, 255, 1) 0%, rgba(77, 80, 153, 1) 100%);
+    padding: 0.5em;
+    text-align: center;
+}
+
+.meal::after{
+   content: "🥗"; 
+}
+
+.water::after{
+    content: "🧉";
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 1.4em;
+}
+
+a:hover{
+    cursor: pointer;
+    color: blue;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+.comida{
+    background: #c2f1ff;
+    background: linear-gradient(125deg, rgba(194, 241, 255, 1) 0%, rgba(77, 130, 153, 1) 100%);
+    padding: 0.5em;
+    text-align: center;
+}
+
+.bebida{
+    background: #c2ffee;
+    background: linear-gradient(125deg, rgba(194, 255, 238, 1) 0%, rgba(77, 107, 153, 1) 100%);
+    padding: 0.5em;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.75em;
+    padding: 0.25em;
+}
+
+.conteiner{
+    padding: 1em;
+}
+
+img{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 20px;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
+
+p{
+    font-size: 1.2em;
+}
+
+.final{
+    color: white;
+}
+
+.mfinal{
+    font-size: 1.2em;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
