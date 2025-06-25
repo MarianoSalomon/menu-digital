@@ -76,11 +76,21 @@ img{
 }
 
 img:hover{
-    transform: scale(1.05);
+    transform: scale(1.04);
 }
 
 p{
     font-size: 1.2em;
+}
+
+.cnombre{
+    text-decoration: underline;
+    font-size: 1.3em;
+}
+
+.cprecio{
+    font-weight: bold;
+    font-size: 1.3em;
 }
 
 .final{
