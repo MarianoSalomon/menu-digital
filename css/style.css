@@ -57,7 +57,7 @@ a:hover{
     background: linear-gradient(125deg, rgba(194, 255, 238, 1) 0%, rgba(77, 107, 153, 1) 100%);
     padding: 0.5em;
     text-align: center;
-}
+} 
 
 h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -66,6 +66,7 @@ h2{
 }
 
 .conteiner{
+    display: inline-block;
     padding: 1em;
 }
 
@@ -73,6 +74,7 @@ img{
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     border-radius: 20px;
+    max-height: 350px;
 }
 
 img:hover{
